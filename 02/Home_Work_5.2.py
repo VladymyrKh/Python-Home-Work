@@ -19,7 +19,7 @@ while True:
             print('Оператор введено з помилкою')
     except ValueError:
         print("Помилка: введіть числове значення!")
-    c = input('Для продовження натисніть "y"').strip().lower()
-    if c not in ['y', 'у']:
+    c = input('Для продовження натисніть "y" чи "yes" ').strip().lower()
+    if c not in ['y', 'у', 'yes']:
         print('Робота завершена')
         break
